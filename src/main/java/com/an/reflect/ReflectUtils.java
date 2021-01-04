@@ -8,7 +8,6 @@ public class ReflectUtils {
      * @param constructors constructors returned by clazz.getConstructors()
      * @param parameterTypes Class<?>[] represents parameterType,mind parameter order;if no parameter,you can just use: null
      * @return constructor<?> object you want
-     * @throws Exception
      */
     public static Constructor<?> getConstructorWant(Constructor<?>[] constructors, Class<?>[] parameterTypes) {
         int parameterCount = 0;
