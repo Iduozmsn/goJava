@@ -19,6 +19,6 @@ public class ReflectUtilsTest {
         // 想获得Person类的:public Person() 无参构造方法
         Constructor<?> constructor1 = ReflectUtils.getConstructorWant(constructors, null);
         Object object1 = constructor1.newInstance();
-        Assert.assertEquals(object.getClass(), Person.class);
+        Assert.assertEquals(object1.getClass(), Person.class);
     }
 }
